@@ -23,7 +23,7 @@
                 <form:input type="hidden" path="id" id="id"/>
                 First Name: <form:input path="firstName" /><br />
                 Last Name: <form:input path="lastName" /><br />
-                Last Name: <form:input path="subject" /><br />            
+                Subject: <form:input path="subject" /><br />            
                 <input type="submit">
             </form:form>
             <div id="msg">${message}</div>
